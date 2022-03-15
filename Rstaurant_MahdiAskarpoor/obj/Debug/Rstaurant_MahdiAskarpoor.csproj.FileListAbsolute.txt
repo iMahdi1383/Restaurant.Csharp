@@ -1,0 +1,118 @@
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe.config
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.pdb
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.Properties.Resources.resources
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.exe
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.pdb
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_intro.resources
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_main.resources
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_login.resources
+C:\Users\lenovo\source\repos\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturant.mdb
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturant.mdb
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe.config
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.pdb
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_intro.resources
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_login.resources
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_main.resources
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.exe
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.pdb
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe.manifest
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.application
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.exe.manifest
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.application
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturant.mdb
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe.config
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe.manifest
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.application
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.pdb
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csprojAssemblyReference.cache
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_intro.resources
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_login.resources
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_main.resources
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.Properties.Resources.resources
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.GenerateResource.cache
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.CoreCompileInputs.cache
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.exe.manifest
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.application
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.exe
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.pdb
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.cs
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.Designer.cs
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.Designer.cs
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.cs
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.Designer.cs
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.Designer.cs
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xsc
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xsd
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xss
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xsc
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xsd
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xss
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xsc
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xsd
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xss
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xsc
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xsd
+L:\بیشتر\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xss
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.cs
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.Designer.cs
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.Designer.cs
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.cs
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.Designer.cs
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.Designer.cs
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xsc
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xsd
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xss
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xsc
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xsd
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xss
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xsc
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xsd
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xss
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xsc
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xsd
+C:\Users\lenovo\Desktop\Restaurant\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xss
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.cs
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.Designer.cs
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.Designer.cs
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.cs
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.Designer.cs
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.Designer.cs
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xsc
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xsd
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_customer.xss
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xsc
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xsd
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_employee.xss
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xsc
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xsd
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_food.xss
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xsc
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xsd
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturantDataSet_order.xss
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\AkoladResturant.mdb
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe.config
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe.manifest
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.application
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.exe
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\bin\Debug\Rstaurant_MahdiAskarpoor.pdb
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csprojAssemblyReference.cache
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_intro.resources
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_login.resources
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.form_main.resources
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.Properties.Resources.resources
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.GenerateResource.cache
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.csproj.CoreCompileInputs.cache
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.exe.manifest
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.application
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.exe
+L:\بروژه ها\ویژوال استادیو\C#\حرفه ای\Restaurant\Restaurant - teacher\Restaurant - Mahdi Askarpoor (v 1.0.0) teacher\Files\C#\Rstaurant_MahdiAskarpoor\Rstaurant_MahdiAskarpoor\obj\Debug\Rstaurant_MahdiAskarpoor.pdb
