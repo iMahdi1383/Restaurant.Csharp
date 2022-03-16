@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1400-12-26 12:36:26 &#1602;&#1576;&#1604; &#1575;&#1586; &#1592;&#1607;&#1585;"/>
+        <attribute name="created" value="bGVub3ZvO0FLT0xBRDsxNDAwLTEyLTI1OzA3OjQ1OjAxINio2LnYryDYp9iyINi42YfYsTsxNDk2Nw=="/>
+        <attribute name="edited" value="bGVub3ZvO0FLT0xBRDsxNDAwLTEyLTI2OzEyOjM2OjI2INmC2KjZhCDYp9iyINi42YfYsTsyOzE1MTEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="Login"/>
+        </body>
+    </function>
+    <function name="Login" type="String" variable="username">
+        <parameters/>
+        <body>
+            <declare name="IsLogin" type="Boolean" array="False" size=""/>
+            <declare name="DatabaseUsername" type="String" array="False" size=""/>
+            <assign variable="DatabaseUsername" expression="&quot;admin&quot;"/>
+            <declare name="OutputMessage" type="String" array="False" size=""/>
+            <declare name="username" type="String" array="False" size=""/>
+            <input variable="username"/>
+            <if expression="username == DatabaseUsername">
+                <then>
+                    <assign variable="OutputMessage" expression="&quot;Login Success&quot;"/>
+                    <output expression="OutputMessage" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="OutputMessage" expression="&quot;Login Failed&quot;"/>
+                    <output expression="OutputMessage" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
