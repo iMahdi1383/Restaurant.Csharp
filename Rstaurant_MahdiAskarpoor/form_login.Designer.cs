@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form_login));
             this.btn_showPassword = new System.Windows.Forms.Button();
-            this.lbl_forgetPasswordLink = new System.Windows.Forms.LinkLabel();
             this.img_login = new System.Windows.Forms.PictureBox();
             this.lbl_detail = new System.Windows.Forms.Label();
             this.lbl_title = new System.Windows.Forms.Label();
@@ -45,6 +44,7 @@
             this.akoladResturantDataSet_employee = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_employee();
             this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.employeeTableAdapter = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_employeeTableAdapters.employeeTableAdapter();
+            this.btn_back = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.img_login)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_password)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_username)).BeginInit();
@@ -64,27 +64,12 @@
             this.btn_showPassword.Location = new System.Drawing.Point(283, 276);
             this.btn_showPassword.Name = "btn_showPassword";
             this.btn_showPassword.Size = new System.Drawing.Size(40, 40);
-            this.btn_showPassword.TabIndex = 13;
+            this.btn_showPassword.TabIndex = 2;
             this.btn_showPassword.UseVisualStyleBackColor = true;
+            this.btn_showPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btn_showPassword_KeyDown);
+            this.btn_showPassword.KeyUp += new System.Windows.Forms.KeyEventHandler(this.btn_showPassword_KeyUp);
             this.btn_showPassword.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btn_showPassword_MouseDown);
             this.btn_showPassword.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btn_showPassword_MouseUp);
-            // 
-            // lbl_forgetPasswordLink
-            // 
-            this.lbl_forgetPasswordLink.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(234)))), ((int)(((byte)(255)))));
-            this.lbl_forgetPasswordLink.AutoSize = true;
-            this.lbl_forgetPasswordLink.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_forgetPasswordLink.Font = new System.Drawing.Font("Vazir Light", 10F);
-            this.lbl_forgetPasswordLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(222)))), ((int)(((byte)(228)))));
-            this.lbl_forgetPasswordLink.Location = new System.Drawing.Point(239, 352);
-            this.lbl_forgetPasswordLink.Name = "lbl_forgetPasswordLink";
-            this.lbl_forgetPasswordLink.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lbl_forgetPasswordLink.Size = new System.Drawing.Size(83, 22);
-            this.lbl_forgetPasswordLink.TabIndex = 3;
-            this.lbl_forgetPasswordLink.TabStop = true;
-            this.lbl_forgetPasswordLink.Text = "فراموشی رمز ";
-            this.lbl_forgetPasswordLink.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lbl_forgetPasswordLink.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             // 
             // img_login
             // 
@@ -138,8 +123,8 @@
             this.btn_login.Location = new System.Drawing.Point(105, 341);
             this.btn_login.Name = "btn_login";
             this.btn_login.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btn_login.Size = new System.Drawing.Size(90, 42);
-            this.btn_login.TabIndex = 2;
+            this.btn_login.Size = new System.Drawing.Size(128, 42);
+            this.btn_login.TabIndex = 3;
             this.btn_login.Text = "ورود";
             this.btn_login.UseVisualStyleBackColor = false;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
@@ -237,6 +222,26 @@
             // 
             this.employeeTableAdapter.ClearBeforeFill = true;
             // 
+            // btn_back
+            // 
+            this.btn_back.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(125)))), ((int)(((byte)(254)))));
+            this.btn_back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_back.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.btn_back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(94)))), ((int)(((byte)(187)))));
+            this.btn_back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(104)))), ((int)(((byte)(208)))));
+            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_back.Font = new System.Drawing.Font("Vazir Light", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(50)))), ((int)(((byte)(58)))));
+            this.btn_back.Location = new System.Drawing.Point(239, 341);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.btn_back.Size = new System.Drawing.Size(85, 42);
+            this.btn_back.TabIndex = 4;
+            this.btn_back.Text = "بازگشت";
+            this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            // 
             // form_login
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -244,8 +249,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(706, 471);
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_showPassword);
-            this.Controls.Add(this.lbl_forgetPasswordLink);
             this.Controls.Add(this.img_login);
             this.Controls.Add(this.lbl_detail);
             this.Controls.Add(this.lbl_title);
@@ -265,7 +270,7 @@
             this.Name = "form_login";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Akolad Restaurant || Login";
+            this.Text = "Garson - Login";
             this.Load += new System.EventHandler(this.Form_login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.img_login)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_password)).EndInit();
@@ -280,7 +285,6 @@
         #endregion
 
         private System.Windows.Forms.Button btn_showPassword;
-        private System.Windows.Forms.LinkLabel lbl_forgetPasswordLink;
         private System.Windows.Forms.PictureBox img_login;
         private System.Windows.Forms.Label lbl_detail;
         private System.Windows.Forms.Label lbl_title;
@@ -294,5 +298,6 @@
         private AkoladResturantDataSet_employee akoladResturantDataSet_employee;
         private System.Windows.Forms.BindingSource employeeBindingSource;
         private AkoladResturantDataSet_employeeTableAdapters.employeeTableAdapter employeeTableAdapter;
+        private System.Windows.Forms.Button btn_back;
     }
 }

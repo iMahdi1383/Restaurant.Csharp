@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Rstaurant_MahdiAskarpoor
@@ -33,14 +27,14 @@ namespace Rstaurant_MahdiAskarpoor
         {
             username = input_username.Text;
             password = input_password.Text;
-            employeeTableAdapter.FillBy_employee(akoladResturantDataSet_employee.employee,username,password);
+            employeeTableAdapter.FillBy_employee(akoladResturantDataSet_employee.employee, username, password);
             if (input_username.Text == "" || input_password.Text == "")
                 MessageBox.Show("نام کاربری یا رمز عبور وارد نشده است", "خطا", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             else if (akoladResturantDataSet_employee.employee.Rows.Count > 0)
             {
-                MessageBox.Show("به سیستم مدیریت یکپارچه رستوران آکولاد خوش آمدید", "خوش آمدید", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("به سیستم مدیریت سفارش گارسون خوش آمدید", "خوش آمدید", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
-                form_main form_main = new form_main();                
+                form_main form_main = new form_main();
                 form_main.FormClosed += (s, args) => this.Close();
                 form_main.Show();
             }
@@ -77,10 +71,27 @@ namespace Rstaurant_MahdiAskarpoor
 
         private void Form_login_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'akoladResturantDataSet_employee.employee' table. You can move, or remove it, as needed.
             this.employeeTableAdapter.Fill(this.akoladResturantDataSet_employee.employee);
-
         }
 
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_intro form_intro = new form_intro();
+            form_intro.FormClosed += (s, args) => this.Close();
+            form_intro.Show();
+        }
+        // todo
+
+        private void btn_showPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btn_showPassword_MouseDown(this, new MouseEventArgs(MouseButtons.Left, 0, 0, 0, 0));
+        }
+        private void btn_showPassword_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btn_showPassword_MouseUp(this, new MouseEventArgs(MouseButtons.Left, 0, 0, 0, 0));
+        }
     }
 }

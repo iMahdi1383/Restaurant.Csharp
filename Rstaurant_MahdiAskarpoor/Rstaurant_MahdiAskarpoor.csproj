@@ -7,7 +7,7 @@
     <ProjectGuid>{822A6DF1-C561-4B84-8C2D-7452825D2EFE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Rstaurant_MahdiAskarpoor</RootNamespace>
-    <AssemblyName>AKOLAD Restaurant</AssemblyName>
+    <AssemblyName>Garson</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>akolad.ico</ApplicationIcon>
+    <ApplicationIcon>garson2.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>Rstaurant_MahdiAskarpoor.Program</StartupObject>
@@ -253,6 +253,7 @@
     <Content Include="AkoladResturant.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="garson2.ico" />
     <Content Include="logo.ico" />
   </ItemGroup>
   <ItemGroup>

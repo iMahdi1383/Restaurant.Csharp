@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Rstaurant_MahdiAskarpoor
@@ -22,19 +19,19 @@ namespace Rstaurant_MahdiAskarpoor
 
         private void Form_main_Load(object sender, EventArgs e)
         {
-/*            try
-            {*/
-                this.employeeTableAdapter.FillBy_employee_private(this.akoladResturantDataSet_employee.employee,employee_username);
+            try
+            {
+                this.employeeTableAdapter.FillBy_employee_private(this.akoladResturantDataSet_employee.employee, employee_username);
                 this.customerTableAdapter.Fill(this.akoladResturantDataSet_customer.customer);
                 this.foodTableAdapter.Fill(this.akoladResturantDataSet_food.food);
                 this.factorTableAdapter.Fill(this.akoladResturantDataSet_order.factor);
                 this.orderTableAdapter.Fill(this.akoladResturantDataSet_order.order);
-/*            }
+            }
             catch
             {
                 MessageBox.Show("به نظر میرسد خطایی در ارتباط با پایگاه داده وجود دارد\nلطفا با توسعه دهنده تماس بگیرید :\n09103291436", "خطای ارتباط با پایگاه داده", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
-            }*/
+            }
 
             lbl_employee_name.Text = "سلام " + dgv_employee.Rows[0].Cells[2].Value.ToString();
             if (Convert.ToBoolean(dgv_employee.Rows[0].Cells[5].Value))
@@ -43,7 +40,8 @@ namespace Rstaurant_MahdiAskarpoor
                 this.employeeTableAdapter.Fill(this.akoladResturantDataSet_employee.employee);
                 pnl_employee.Show();
             }
-            else {
+            else
+            {
                 lbl_employee_type.Text = "کاربر عادی";
                 pnl_employee.Hide();
             }
@@ -272,7 +270,7 @@ namespace Rstaurant_MahdiAskarpoor
         {
             lbl_welcome.Text = tab_food.Text;
             tabs.SelectedTab = tab_food;
-            Btn_food_empty_Click(this,new EventArgs());
+            Btn_food_empty_Click(this, new EventArgs());
             input_food_name.Focus();
             btn_home.BackgroundImage = null;
             ico_home.BackgroundImage = null;
@@ -1200,7 +1198,7 @@ namespace Rstaurant_MahdiAskarpoor
                 lbl_factor_customer_name.Text != "کد مشتری نادرست است"
                 )
             {
-                DialogResult add_order = MessageBox.Show("از صحت اطلاعات وارد شده اطمینان دارید؟", "ثبت سفارش", MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                DialogResult add_order = MessageBox.Show("از صحت اطلاعات وارد شده اطمینان دارید؟", "ثبت سفارش", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (add_order == DialogResult.Yes)
                 {
                     factor_code = Convert.ToInt32(lbl_factor_code.Text);

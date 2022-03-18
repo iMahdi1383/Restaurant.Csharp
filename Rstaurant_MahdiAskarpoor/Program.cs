@@ -16,9 +16,11 @@ namespace Rstaurant_MahdiAskarpoor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            if (System.IO.File.Exists("hide_intro"))
+                Application.Run(new form_login());
+            else
+                Application.Run(new form_intro());
 
-            Application.Run(new form_intro());
-            // Application.Run(new form_main());
         }
     }
 }

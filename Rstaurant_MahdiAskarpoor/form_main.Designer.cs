@@ -76,11 +76,24 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pnl_employee = new System.Windows.Forms.Panel();
             this.dgv_employee = new System.Windows.Forms.DataGridView();
+            this.codeDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.usernameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.firstnameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lastnameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phoneDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.isAdminDataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.employeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.akoladResturantDataSetemployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.akoladResturantDataSet_employee = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_employee();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_add_food = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orderBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.akoladResturantDataSet_order = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_order();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_add_customer = new System.Windows.Forms.Button();
             this.tab_food = new System.Windows.Forms.TabPage();
@@ -110,6 +123,11 @@
             this.lbl_food_help = new System.Windows.Forms.Label();
             this.btn_food_search = new System.Windows.Forms.Button();
             this.dgv_food = new System.Windows.Forms.DataGridView();
+            this.codeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.foodBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.akoladResturantDataSet_food = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_food();
             this.pnl_food_search = new System.Windows.Forms.Panel();
             this.input_food_search = new System.Windows.Forms.TextBox();
             this.tab_customer = new System.Windows.Forms.TabPage();
@@ -139,6 +157,12 @@
             this.btn_customer_first = new System.Windows.Forms.Button();
             this.btn_customer_search = new System.Windows.Forms.Button();
             this.dgv_customer = new System.Windows.Forms.DataGridView();
+            this.codeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.akoladResturantDataSet_customer = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_customer();
             this.pnl_customer_search = new System.Windows.Forms.Panel();
             this.input_customer_search = new System.Windows.Forms.TextBox();
             this.tab_factor = new System.Windows.Forms.TabPage();
@@ -193,7 +217,14 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.dgv_order = new System.Windows.Forms.DataGridView();
+            this.codeDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customercodeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orderdateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_factors = new System.Windows.Forms.DataGridView();
+            this.codeDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.foodcodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.foodamountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.factorBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tab_setting = new System.Windows.Forms.TabPage();
             this.label8 = new System.Windows.Forms.Label();
             this.lbl_title = new System.Windows.Forms.Label();
@@ -215,37 +246,6 @@
             this.btn_home = new System.Windows.Forms.Button();
             this.img_logo = new System.Windows.Forms.PictureBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
-            this.codeDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usernameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.firstnameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lastnameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.isAdminDataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.akoladResturantDataSetemployeeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.akoladResturantDataSet_employee = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_employee();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orderBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.akoladResturantDataSet_order = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_order();
-            this.codeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.priceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.foodBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.akoladResturantDataSet_food = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_food();
-            this.codeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phoneDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.akoladResturantDataSet_customer = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_customer();
-            this.codeDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.customercodeDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orderdateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.codeDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.foodcodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.foodamountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.factorBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.customerTableAdapter = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_customerTableAdapters.customerTableAdapter();
             this.foodTableAdapter = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_foodTableAdapters.foodTableAdapter();
             this.employeeTableAdapter = new Rstaurant_MahdiAskarpoor.AkoladResturantDataSet_employeeTableAdapters.employeeTableAdapter();
@@ -262,20 +262,28 @@
             this.pnl_employee.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_employee)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSetemployeeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_employee)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_order)).BeginInit();
             this.tab_food.SuspendLayout();
             this.pnl_food.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ico_food_submit)).BeginInit();
             this.panel8.SuspendLayout();
             this.pnl_food_help.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_food)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.foodBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_food)).BeginInit();
             this.pnl_food_search.SuspendLayout();
             this.tab_customer.SuspendLayout();
             this.pnl_customer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ico_customer_submit)).BeginInit();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_customer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_customer)).BeginInit();
             this.pnl_customer_search.SuspendLayout();
             this.tab_factor.SuspendLayout();
             this.panel18.SuspendLayout();
@@ -290,6 +298,7 @@
             this.tab_order.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_order)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_factors)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.factorBindingSource)).BeginInit();
             this.tab_setting.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img_login)).BeginInit();
             this.panel2.SuspendLayout();
@@ -300,15 +309,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.ico_order)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ico_home)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSetemployeeBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_employee)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_order)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.foodBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_food)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_customer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.factorBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel3
@@ -597,10 +597,62 @@
             this.dgv_employee.Size = new System.Drawing.Size(492, 182);
             this.dgv_employee.TabIndex = 8;
             // 
+            // codeDataGridViewTextBoxColumn5
+            // 
+            this.codeDataGridViewTextBoxColumn5.DataPropertyName = "code";
+            this.codeDataGridViewTextBoxColumn5.HeaderText = "code";
+            this.codeDataGridViewTextBoxColumn5.Name = "codeDataGridViewTextBoxColumn5";
+            this.codeDataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // usernameDataGridViewTextBoxColumn1
+            // 
+            this.usernameDataGridViewTextBoxColumn1.DataPropertyName = "username";
+            this.usernameDataGridViewTextBoxColumn1.HeaderText = "username";
+            this.usernameDataGridViewTextBoxColumn1.Name = "usernameDataGridViewTextBoxColumn1";
+            this.usernameDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // firstnameDataGridViewTextBoxColumn1
+            // 
+            this.firstnameDataGridViewTextBoxColumn1.DataPropertyName = "firstname";
+            this.firstnameDataGridViewTextBoxColumn1.HeaderText = "firstname";
+            this.firstnameDataGridViewTextBoxColumn1.Name = "firstnameDataGridViewTextBoxColumn1";
+            this.firstnameDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // lastnameDataGridViewTextBoxColumn1
+            // 
+            this.lastnameDataGridViewTextBoxColumn1.DataPropertyName = "lastname";
+            this.lastnameDataGridViewTextBoxColumn1.HeaderText = "lastname";
+            this.lastnameDataGridViewTextBoxColumn1.Name = "lastnameDataGridViewTextBoxColumn1";
+            this.lastnameDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // phoneDataGridViewTextBoxColumn2
+            // 
+            this.phoneDataGridViewTextBoxColumn2.DataPropertyName = "phone";
+            this.phoneDataGridViewTextBoxColumn2.HeaderText = "phone";
+            this.phoneDataGridViewTextBoxColumn2.Name = "phoneDataGridViewTextBoxColumn2";
+            this.phoneDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // isAdminDataGridViewCheckBoxColumn1
+            // 
+            this.isAdminDataGridViewCheckBoxColumn1.DataPropertyName = "isAdmin";
+            this.isAdminDataGridViewCheckBoxColumn1.HeaderText = "isAdmin";
+            this.isAdminDataGridViewCheckBoxColumn1.Name = "isAdminDataGridViewCheckBoxColumn1";
+            this.isAdminDataGridViewCheckBoxColumn1.ReadOnly = true;
+            // 
             // employeeBindingSource
             // 
             this.employeeBindingSource.DataMember = "employee";
             this.employeeBindingSource.DataSource = this.akoladResturantDataSetemployeeBindingSource;
+            // 
+            // akoladResturantDataSetemployeeBindingSource
+            // 
+            this.akoladResturantDataSetemployeeBindingSource.DataSource = this.akoladResturantDataSet_employee;
+            this.akoladResturantDataSetemployeeBindingSource.Position = 0;
+            // 
+            // akoladResturantDataSet_employee
+            // 
+            this.akoladResturantDataSet_employee.DataSetName = "AkoladResturantDataSet_employee";
+            this.akoladResturantDataSet_employee.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label2
             // 
@@ -699,6 +751,40 @@
             this.dataGridView1.RowTemplate.Height = 32;
             this.dataGridView1.Size = new System.Drawing.Size(365, 301);
             this.dataGridView1.TabIndex = 5;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "code";
+            this.dataGridViewTextBoxColumn1.HeaderText = "کد سفارش";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 80;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "customer_code";
+            this.dataGridViewTextBoxColumn2.HeaderText = "کد مشتری";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 80;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "order_date";
+            this.dataGridViewTextBoxColumn3.HeaderText = "تاریخ سفارش";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // orderBindingSource
+            // 
+            this.orderBindingSource.DataMember = "order";
+            this.orderBindingSource.DataSource = this.akoladResturantDataSet_order;
+            // 
+            // akoladResturantDataSet_order
+            // 
+            this.akoladResturantDataSet_order.DataSetName = "AkoladResturantDataSet_order";
+            this.akoladResturantDataSet_order.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // label1
             // 
@@ -1216,6 +1302,40 @@
             this.dgv_food.TabIndex = 0;
             this.dgv_food.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_food_CellClick);
             this.dgv_food.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_food_CellClick);
+            // 
+            // codeDataGridViewTextBoxColumn
+            // 
+            this.codeDataGridViewTextBoxColumn.DataPropertyName = "code";
+            this.codeDataGridViewTextBoxColumn.HeaderText = "کد";
+            this.codeDataGridViewTextBoxColumn.Name = "codeDataGridViewTextBoxColumn";
+            this.codeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.codeDataGridViewTextBoxColumn.Width = 40;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "نام غذا";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // priceDataGridViewTextBoxColumn
+            // 
+            this.priceDataGridViewTextBoxColumn.DataPropertyName = "price";
+            this.priceDataGridViewTextBoxColumn.HeaderText = "قیمت";
+            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
+            this.priceDataGridViewTextBoxColumn.ReadOnly = true;
+            this.priceDataGridViewTextBoxColumn.Width = 140;
+            // 
+            // foodBindingSource
+            // 
+            this.foodBindingSource.DataMember = "food";
+            this.foodBindingSource.DataSource = this.akoladResturantDataSet_food;
+            // 
+            // akoladResturantDataSet_food
+            // 
+            this.akoladResturantDataSet_food.DataSetName = "AkoladResturantDataSet_food";
+            this.akoladResturantDataSet_food.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // pnl_food_search
             // 
@@ -1735,6 +1855,48 @@
             this.dgv_customer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_customer_CellClick);
             this.dgv_customer.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_customer_CellClick);
             // 
+            // codeDataGridViewTextBoxColumn1
+            // 
+            this.codeDataGridViewTextBoxColumn1.DataPropertyName = "code";
+            this.codeDataGridViewTextBoxColumn1.HeaderText = "کد";
+            this.codeDataGridViewTextBoxColumn1.Name = "codeDataGridViewTextBoxColumn1";
+            this.codeDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.codeDataGridViewTextBoxColumn1.Width = 40;
+            // 
+            // nameDataGridViewTextBoxColumn1
+            // 
+            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn1.HeaderText = "نام";
+            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            this.nameDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.nameDataGridViewTextBoxColumn1.Width = 110;
+            // 
+            // phoneDataGridViewTextBoxColumn
+            // 
+            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "phone";
+            this.phoneDataGridViewTextBoxColumn.HeaderText = "تلفن";
+            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
+            this.phoneDataGridViewTextBoxColumn.ReadOnly = true;
+            this.phoneDataGridViewTextBoxColumn.Width = 110;
+            // 
+            // addressDataGridViewTextBoxColumn
+            // 
+            this.addressDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
+            this.addressDataGridViewTextBoxColumn.HeaderText = "آدرس";
+            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
+            this.addressDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // customerBindingSource
+            // 
+            this.customerBindingSource.DataMember = "customer";
+            this.customerBindingSource.DataSource = this.akoladResturantDataSet_customer;
+            // 
+            // akoladResturantDataSet_customer
+            // 
+            this.akoladResturantDataSet_customer.DataSetName = "AkoladResturantDataSet_customer";
+            this.akoladResturantDataSet_customer.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // pnl_customer_search
             // 
             this.pnl_customer_search.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(247)))), ((int)(((byte)(248)))));
@@ -1774,10 +1936,10 @@
             this.tab_factor.Controls.Add(this.panel12);
             this.tab_factor.Controls.Add(this.panel7);
             this.tab_factor.Controls.Add(this.dgv_factor);
-            this.tab_factor.Location = new System.Drawing.Point(4, 32);
+            this.tab_factor.Location = new System.Drawing.Point(4, 22);
             this.tab_factor.Name = "tab_factor";
             this.tab_factor.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_factor.Size = new System.Drawing.Size(829, 487);
+            this.tab_factor.Size = new System.Drawing.Size(829, 497);
             this.tab_factor.TabIndex = 4;
             this.tab_factor.Text = "فاکتور";
             // 
@@ -2554,6 +2716,30 @@
             this.dgv_order.Size = new System.Drawing.Size(348, 401);
             this.dgv_order.TabIndex = 7;
             // 
+            // codeDataGridViewTextBoxColumn2
+            // 
+            this.codeDataGridViewTextBoxColumn2.DataPropertyName = "code";
+            this.codeDataGridViewTextBoxColumn2.HeaderText = "کد سفارش";
+            this.codeDataGridViewTextBoxColumn2.Name = "codeDataGridViewTextBoxColumn2";
+            this.codeDataGridViewTextBoxColumn2.ReadOnly = true;
+            this.codeDataGridViewTextBoxColumn2.Width = 80;
+            // 
+            // customercodeDataGridViewTextBoxColumn1
+            // 
+            this.customercodeDataGridViewTextBoxColumn1.DataPropertyName = "customer_code";
+            this.customercodeDataGridViewTextBoxColumn1.HeaderText = "کد مشتری";
+            this.customercodeDataGridViewTextBoxColumn1.Name = "customercodeDataGridViewTextBoxColumn1";
+            this.customercodeDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.customercodeDataGridViewTextBoxColumn1.Width = 80;
+            // 
+            // orderdateDataGridViewTextBoxColumn1
+            // 
+            this.orderdateDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.orderdateDataGridViewTextBoxColumn1.DataPropertyName = "order_date";
+            this.orderdateDataGridViewTextBoxColumn1.HeaderText = "تاریخ سفارش";
+            this.orderdateDataGridViewTextBoxColumn1.Name = "orderdateDataGridViewTextBoxColumn1";
+            this.orderdateDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
             // dgv_factors
             // 
             this.dgv_factors.AllowUserToAddRows = false;
@@ -2605,6 +2791,35 @@
             this.dgv_factors.RowTemplate.Height = 32;
             this.dgv_factors.Size = new System.Drawing.Size(235, 401);
             this.dgv_factors.TabIndex = 6;
+            // 
+            // codeDataGridViewTextBoxColumn3
+            // 
+            this.codeDataGridViewTextBoxColumn3.DataPropertyName = "code";
+            this.codeDataGridViewTextBoxColumn3.HeaderText = "کد سفارش";
+            this.codeDataGridViewTextBoxColumn3.Name = "codeDataGridViewTextBoxColumn3";
+            this.codeDataGridViewTextBoxColumn3.ReadOnly = true;
+            this.codeDataGridViewTextBoxColumn3.Width = 80;
+            // 
+            // foodcodeDataGridViewTextBoxColumn
+            // 
+            this.foodcodeDataGridViewTextBoxColumn.DataPropertyName = "food_code";
+            this.foodcodeDataGridViewTextBoxColumn.HeaderText = "کد غذا";
+            this.foodcodeDataGridViewTextBoxColumn.Name = "foodcodeDataGridViewTextBoxColumn";
+            this.foodcodeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.foodcodeDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // foodamountDataGridViewTextBoxColumn
+            // 
+            this.foodamountDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.foodamountDataGridViewTextBoxColumn.DataPropertyName = "food_amount";
+            this.foodamountDataGridViewTextBoxColumn.HeaderText = "تعداد غذا";
+            this.foodamountDataGridViewTextBoxColumn.Name = "foodamountDataGridViewTextBoxColumn";
+            this.foodamountDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // factorBindingSource
+            // 
+            this.factorBindingSource.DataMember = "factor";
+            this.factorBindingSource.DataSource = this.akoladResturantDataSet_order;
             // 
             // tab_setting
             // 
@@ -2932,221 +3147,6 @@
             this.img_logo.TabIndex = 1;
             this.img_logo.TabStop = false;
             // 
-            // codeDataGridViewTextBoxColumn5
-            // 
-            this.codeDataGridViewTextBoxColumn5.DataPropertyName = "code";
-            this.codeDataGridViewTextBoxColumn5.HeaderText = "code";
-            this.codeDataGridViewTextBoxColumn5.Name = "codeDataGridViewTextBoxColumn5";
-            this.codeDataGridViewTextBoxColumn5.ReadOnly = true;
-            // 
-            // usernameDataGridViewTextBoxColumn1
-            // 
-            this.usernameDataGridViewTextBoxColumn1.DataPropertyName = "username";
-            this.usernameDataGridViewTextBoxColumn1.HeaderText = "username";
-            this.usernameDataGridViewTextBoxColumn1.Name = "usernameDataGridViewTextBoxColumn1";
-            this.usernameDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // firstnameDataGridViewTextBoxColumn1
-            // 
-            this.firstnameDataGridViewTextBoxColumn1.DataPropertyName = "firstname";
-            this.firstnameDataGridViewTextBoxColumn1.HeaderText = "firstname";
-            this.firstnameDataGridViewTextBoxColumn1.Name = "firstnameDataGridViewTextBoxColumn1";
-            this.firstnameDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // lastnameDataGridViewTextBoxColumn1
-            // 
-            this.lastnameDataGridViewTextBoxColumn1.DataPropertyName = "lastname";
-            this.lastnameDataGridViewTextBoxColumn1.HeaderText = "lastname";
-            this.lastnameDataGridViewTextBoxColumn1.Name = "lastnameDataGridViewTextBoxColumn1";
-            this.lastnameDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // phoneDataGridViewTextBoxColumn2
-            // 
-            this.phoneDataGridViewTextBoxColumn2.DataPropertyName = "phone";
-            this.phoneDataGridViewTextBoxColumn2.HeaderText = "phone";
-            this.phoneDataGridViewTextBoxColumn2.Name = "phoneDataGridViewTextBoxColumn2";
-            this.phoneDataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // isAdminDataGridViewCheckBoxColumn1
-            // 
-            this.isAdminDataGridViewCheckBoxColumn1.DataPropertyName = "isAdmin";
-            this.isAdminDataGridViewCheckBoxColumn1.HeaderText = "isAdmin";
-            this.isAdminDataGridViewCheckBoxColumn1.Name = "isAdminDataGridViewCheckBoxColumn1";
-            this.isAdminDataGridViewCheckBoxColumn1.ReadOnly = true;
-            // 
-            // akoladResturantDataSetemployeeBindingSource
-            // 
-            this.akoladResturantDataSetemployeeBindingSource.DataSource = this.akoladResturantDataSet_employee;
-            this.akoladResturantDataSetemployeeBindingSource.Position = 0;
-            // 
-            // akoladResturantDataSet_employee
-            // 
-            this.akoladResturantDataSet_employee.DataSetName = "AkoladResturantDataSet_employee";
-            this.akoladResturantDataSet_employee.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "code";
-            this.dataGridViewTextBoxColumn1.HeaderText = "کد سفارش";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 80;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "customer_code";
-            this.dataGridViewTextBoxColumn2.HeaderText = "کد مشتری";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 80;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "order_date";
-            this.dataGridViewTextBoxColumn3.HeaderText = "تاریخ سفارش";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // orderBindingSource
-            // 
-            this.orderBindingSource.DataMember = "order";
-            this.orderBindingSource.DataSource = this.akoladResturantDataSet_order;
-            // 
-            // akoladResturantDataSet_order
-            // 
-            this.akoladResturantDataSet_order.DataSetName = "AkoladResturantDataSet_order";
-            this.akoladResturantDataSet_order.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // codeDataGridViewTextBoxColumn
-            // 
-            this.codeDataGridViewTextBoxColumn.DataPropertyName = "code";
-            this.codeDataGridViewTextBoxColumn.HeaderText = "کد";
-            this.codeDataGridViewTextBoxColumn.Name = "codeDataGridViewTextBoxColumn";
-            this.codeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.codeDataGridViewTextBoxColumn.Width = 40;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "نام غذا";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // priceDataGridViewTextBoxColumn
-            // 
-            this.priceDataGridViewTextBoxColumn.DataPropertyName = "price";
-            this.priceDataGridViewTextBoxColumn.HeaderText = "قیمت";
-            this.priceDataGridViewTextBoxColumn.Name = "priceDataGridViewTextBoxColumn";
-            this.priceDataGridViewTextBoxColumn.ReadOnly = true;
-            this.priceDataGridViewTextBoxColumn.Width = 140;
-            // 
-            // foodBindingSource
-            // 
-            this.foodBindingSource.DataMember = "food";
-            this.foodBindingSource.DataSource = this.akoladResturantDataSet_food;
-            // 
-            // akoladResturantDataSet_food
-            // 
-            this.akoladResturantDataSet_food.DataSetName = "AkoladResturantDataSet_food";
-            this.akoladResturantDataSet_food.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // codeDataGridViewTextBoxColumn1
-            // 
-            this.codeDataGridViewTextBoxColumn1.DataPropertyName = "code";
-            this.codeDataGridViewTextBoxColumn1.HeaderText = "کد";
-            this.codeDataGridViewTextBoxColumn1.Name = "codeDataGridViewTextBoxColumn1";
-            this.codeDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.codeDataGridViewTextBoxColumn1.Width = 40;
-            // 
-            // nameDataGridViewTextBoxColumn1
-            // 
-            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn1.HeaderText = "نام";
-            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
-            this.nameDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.nameDataGridViewTextBoxColumn1.Width = 110;
-            // 
-            // phoneDataGridViewTextBoxColumn
-            // 
-            this.phoneDataGridViewTextBoxColumn.DataPropertyName = "phone";
-            this.phoneDataGridViewTextBoxColumn.HeaderText = "تلفن";
-            this.phoneDataGridViewTextBoxColumn.Name = "phoneDataGridViewTextBoxColumn";
-            this.phoneDataGridViewTextBoxColumn.ReadOnly = true;
-            this.phoneDataGridViewTextBoxColumn.Width = 110;
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "آدرس";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            this.addressDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // customerBindingSource
-            // 
-            this.customerBindingSource.DataMember = "customer";
-            this.customerBindingSource.DataSource = this.akoladResturantDataSet_customer;
-            // 
-            // akoladResturantDataSet_customer
-            // 
-            this.akoladResturantDataSet_customer.DataSetName = "AkoladResturantDataSet_customer";
-            this.akoladResturantDataSet_customer.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // codeDataGridViewTextBoxColumn2
-            // 
-            this.codeDataGridViewTextBoxColumn2.DataPropertyName = "code";
-            this.codeDataGridViewTextBoxColumn2.HeaderText = "کد سفارش";
-            this.codeDataGridViewTextBoxColumn2.Name = "codeDataGridViewTextBoxColumn2";
-            this.codeDataGridViewTextBoxColumn2.ReadOnly = true;
-            this.codeDataGridViewTextBoxColumn2.Width = 80;
-            // 
-            // customercodeDataGridViewTextBoxColumn1
-            // 
-            this.customercodeDataGridViewTextBoxColumn1.DataPropertyName = "customer_code";
-            this.customercodeDataGridViewTextBoxColumn1.HeaderText = "کد مشتری";
-            this.customercodeDataGridViewTextBoxColumn1.Name = "customercodeDataGridViewTextBoxColumn1";
-            this.customercodeDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.customercodeDataGridViewTextBoxColumn1.Width = 80;
-            // 
-            // orderdateDataGridViewTextBoxColumn1
-            // 
-            this.orderdateDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.orderdateDataGridViewTextBoxColumn1.DataPropertyName = "order_date";
-            this.orderdateDataGridViewTextBoxColumn1.HeaderText = "تاریخ سفارش";
-            this.orderdateDataGridViewTextBoxColumn1.Name = "orderdateDataGridViewTextBoxColumn1";
-            this.orderdateDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // codeDataGridViewTextBoxColumn3
-            // 
-            this.codeDataGridViewTextBoxColumn3.DataPropertyName = "code";
-            this.codeDataGridViewTextBoxColumn3.HeaderText = "کد سفارش";
-            this.codeDataGridViewTextBoxColumn3.Name = "codeDataGridViewTextBoxColumn3";
-            this.codeDataGridViewTextBoxColumn3.ReadOnly = true;
-            this.codeDataGridViewTextBoxColumn3.Width = 80;
-            // 
-            // foodcodeDataGridViewTextBoxColumn
-            // 
-            this.foodcodeDataGridViewTextBoxColumn.DataPropertyName = "food_code";
-            this.foodcodeDataGridViewTextBoxColumn.HeaderText = "کد غذا";
-            this.foodcodeDataGridViewTextBoxColumn.Name = "foodcodeDataGridViewTextBoxColumn";
-            this.foodcodeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.foodcodeDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // foodamountDataGridViewTextBoxColumn
-            // 
-            this.foodamountDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.foodamountDataGridViewTextBoxColumn.DataPropertyName = "food_amount";
-            this.foodamountDataGridViewTextBoxColumn.HeaderText = "تعداد غذا";
-            this.foodamountDataGridViewTextBoxColumn.Name = "foodamountDataGridViewTextBoxColumn";
-            this.foodamountDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // factorBindingSource
-            // 
-            this.factorBindingSource.DataMember = "factor";
-            this.factorBindingSource.DataSource = this.akoladResturantDataSet_order;
-            // 
             // customerTableAdapter
             // 
             this.customerTableAdapter.ClearBeforeFill = true;
@@ -3180,7 +3180,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "form_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Akolad Restaurant";
+            this.Text = "Garson";
             this.Load += new System.EventHandler(this.Form_main_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -3196,9 +3196,13 @@
             this.pnl_employee.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_employee)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSetemployeeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_employee)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_order)).EndInit();
             this.tab_food.ResumeLayout(false);
             this.pnl_food.ResumeLayout(false);
             this.pnl_food.PerformLayout();
@@ -3206,6 +3210,8 @@
             this.panel8.ResumeLayout(false);
             this.pnl_food_help.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_food)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.foodBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_food)).EndInit();
             this.pnl_food_search.ResumeLayout(false);
             this.pnl_food_search.PerformLayout();
             this.tab_customer.ResumeLayout(false);
@@ -3214,6 +3220,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.ico_customer_submit)).EndInit();
             this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_customer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_customer)).EndInit();
             this.pnl_customer_search.ResumeLayout(false);
             this.pnl_customer_search.PerformLayout();
             this.tab_factor.ResumeLayout(false);
@@ -3231,6 +3239,7 @@
             this.tab_order.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_order)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_factors)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.factorBindingSource)).EndInit();
             this.tab_setting.ResumeLayout(false);
             this.tab_setting.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img_login)).EndInit();
@@ -3242,15 +3251,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.ico_order)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ico_home)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSetemployeeBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_employee)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.orderBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_order)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.foodBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_food)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.akoladResturantDataSet_customer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.factorBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
